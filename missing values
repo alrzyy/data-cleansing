@@ -1,0 +1,4 @@
+print('Total missing values data dari kolom Churn', df_load['Churn'].isnull().sum())
+# Dropping all Rows with spesific column (churn)
+df_load.dropna(subset=['Churn'],inplace=True)
+print('Total Rows dan kolom Data setelah dihapus data Missing Values adalah', df_load.shape)
