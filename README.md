@@ -26,3 +26,9 @@ dataset terdiri dari :
 -MonthlyCharges The amount charged to the customer monthly
 -TotalCharges The total amount charged to the customer
 -Churn Whether the customer churned or not (Yes or No)
+
+DENGAN OUTPUT KESIMPULAN :
+
+A. Gender (Female, Male, Wanita, Laki-Laki), yang bisa di standardkan nilainya menjadi (Female, Male) karena mempunyai makna yang sama.
+B. Dependents (Yes, No, Iya), yang bisa di standardkan nilainya menjadi (Yes, No) karena mempunyai makna yang sama.
+C. Churn (Yes, No, Churn), yang bisa di standardkan nilainya menjadi (Yes, No) karena mempunyai makna yang sama.
