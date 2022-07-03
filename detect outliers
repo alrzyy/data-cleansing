@@ -1,0 +1,17 @@
+print('\nPersebaran data sebelum ditangani Outlier: ')
+print(df_load[['tenure','MonthlyCharges','TotalCharges']].describe())
+
+# Creating Box Plot
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Misal untuk kolom tenure
+plt.figure()
+sns.boxplot(x=df_load['tenure'])
+plt.show()
+plt.figure()
+sns.boxplot(x=df_load['MonthlyCharges'])
+plt.show()
+plt.figure()
+sns.boxplot(x=df_load['TotalCharges'])
+plt.show()
